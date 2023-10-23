@@ -1,12 +1,18 @@
 # Restaurant-Revenue-Prediction---Regression
 **Introduction:**
 Food industry plays a crucial part in the enhancement of the country’s economy. This mainly plays a key role in metropolitan cities. Where restaurants are essential parts of social gatherings and in recent days there are different varieties of quick-service restaurants like food trucks and takeaways. With this recent rise in restaurant types, it is difficult to decide when and where to open a new restaurant
+
 **Type of Machine learning problem:**
 We are asked to predict the revenue of the restaurant in a given year, this problem can be best framed as a Regression problem.
-Dataset: https://www.kaggle.com/c/restaurant-revenue-prediction
+
+**Dataset: **https://www.kaggle.com/c/restaurant-revenue-prediction
+
+
 **File Description**
 train.csv - the training set. Use this dataset for training your model.
 test.csv - the test set. To deter manual "guess" predictions, Kaggle has supplemented the test set with additional "ignored" data. 
+
+
 **Data Details**
 Id : Restaurant id.
 Open Date : opening date for a restaurant
@@ -15,8 +21,10 @@ City Group: Type of the city. Big cities, or Other.
 Type: Type of the restaurant. FC: Food Court, IL: Inline, DT: Drive Thru, MB: Mobile P1, P2 - P37: There are three categories of these obfuscated data. Demographic data are gathered from third party providers with GIS systems. These include population in any given area, age and gender distribution, development scales. Real estate data mainly relate to the m2 of the location, front facade of the location, car park availability. Commercial data mainly include the existence of points of interest including schools, banks, other QSR operators.
 Revenue: The revenue column indicates a (transformed) revenue of the restaurant in a given year and is the target of predictive analysis. Please note that the values are transformed so they don't mean real dollar values.
 
+
 **Evaluation Metric:**
 The most efficient and commonly used evaluation metrics in regression problems.
+
 **Root Mean Squared Error(RMSE):**
 RMSE is the most popular evaluation metric where it follows an assumption that errors obtained are unbiased and follow a normal distribution. RMSE is the square root of average squared residuals/errors.
 Residuals = y_actual - y_predicted IMG1.png
