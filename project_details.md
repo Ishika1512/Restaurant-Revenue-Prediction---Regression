@@ -3,7 +3,7 @@
 Food industry plays a crucial part in the enhancement of the country’s economy. This mainly plays a key role in metropolitan cities. Where restaurants are essential parts of social gatherings and in recent days there are different varieties of quick-service restaurants like food trucks and takeaways. With this recent rise in restaurant types, it is difficult to decide when and where to open a new restaurant
 
 **Type of Machine learning problem:**
-We are asked to predict the revenue of the restaurant in a given year, this problem can be best framed as a Regression problem.
+To predict the revenue of the restaurant in a given year, this problem can be best framed as a Regression problem.
 
 **Dataset:** https://www.kaggle.com/c/restaurant-revenue-prediction
 
